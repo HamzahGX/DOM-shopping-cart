@@ -1,0 +1,141 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: rgb(175, 175, 161);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1.4rem;
+}
+
+/* Style the left section of the navbar */
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the logo */
+.logo {
+  text-decoration: none;
+  color: rgb(231, 217, 12);
+  font-size: 2rem;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Style the search input and button */
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(231, 224, 224);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.search input {
+  border: none;
+  background: transparent;
+  color: rgb(17, 15, 15);
+  font-size: 1rem;
+  outline: none;
+  width: 150px;
+}
+.searchbutton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search button {
+  display: flex;
+  align-items: flex-end;
+  background: none;
+  border: none;
+  color: rgb(2, 2, 2);
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 300px;
+}
+
+/* Style the right section of the navbar */
+.right-section button {
+  background: none;
+  border: none;
+  color: rgb(8, 8, 8);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Style the cart container */
+.cart-container {
+  width: 850px;
+  margin: 10px auto;
+  text-align: flex-end;
+  padding: 10px;
+  border: 2px solid rgb(231, 217, 12);
+}
+
+/* Style cart items */
+.cart-item {
+  display: flex;
+  border: 2px solid rgb(231, 217, 12);
+  padding: 10px;
+  margin: 10px 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.item-details {
+  margin-left: 30px;
+}
+/* Style the item image */
+.item-image {
+  margin-left: 10px;
+}
+/* Style total price */
+#total-price {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+/* Style the increment and decrement buttons */
+.actions button {
+  background-color: rgb(231, 217, 12);
+  color: rgb(27, 26, 26);
+  border: none;
+  width: 3rem;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: rgb(175, 175, 161);
+}
+
+/* Style the like and delete buttons */
+.like-button,
+.delete-button {
+  background-color: rgb(231, 217, 12);
+  width: 5rem;
+  color: rgb(17, 16, 16);
+  border: none;
+  padding: 8px 12px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.like-button:hover,
+.delete-button:hover {
+  background-color: #b18c8c;
+}
